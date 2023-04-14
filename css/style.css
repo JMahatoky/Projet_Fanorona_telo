@@ -1,0 +1,69 @@
+.titre{
+    margin-left: 42%;
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    color: rgb(255, 0, 0);
+}
+.boite{
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgba(196, 141, 95, 0.932);
+    border-color: rgba(255, 255, 255, 0.459);
+    border-radius: 15px;
+    width: 80%;
+    height: 80%;
+}
+.img2{
+    /*float: left;*/
+    margin-top: 6%;
+    width: 10%;
+    height: 10%;
+}
+
+.img1{
+    /*float: left;*/
+    margin-top: 6%;
+    width: 10%;
+    height: 10%;
+}
+
+.entete{
+    display: flex;
+}
+#soratra_mena{
+    background-color: rgba(255, 255, 255, 0.836);
+    width: 300px;
+    position: absolute;
+    padding-left: 45px;
+    left: 37%;
+    top: 351px;
+    visibility: hidden;
+}
+#soratra_manga{
+    background-color: rgba(255, 255, 255, 0.836);
+    width: 300px;
+    position: absolute;
+    padding-left: 45px;
+    left: 37%;
+    top: 351px;
+    visibility: hidden;
+}
+.mena{
+    color: red;
+}
+.manga{
+    font-size: 31px;
+    color: blue;
+}
+#img_close{
+    width: 25px;
+    position: absolute;
+    left: 61%;
+    top: 351px;
+    visibility: hidden;
+}
+#img_close:hover{
+    background-color: red;
+}
